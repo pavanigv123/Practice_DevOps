@@ -9,3 +9,9 @@ variable "sample11" {}
 output "try" {
   value = var.sample11
 }
+
+variable "cli" {}
+
+output "cli" {
+  value = var.cli
+}
