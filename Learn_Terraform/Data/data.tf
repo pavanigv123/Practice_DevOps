@@ -7,11 +7,11 @@ data "aws_ami" "example" {
 }
 
 data "aws_instance" "get_man"{
-  instance_id = "terra_practice"
+  instance_id = "i-00278341bc30fddb1"
 }
 
 output "instance" {
-  value = data.aws_instance.get_man.id
+  value = data.aws_instance.get_man.tags
 }
 output "ami_id" {
   value = data.aws_ami.example.id
