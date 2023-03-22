@@ -7,6 +7,3 @@ variable "sam2" {
 variable "sam3" {
   default = "sg-0a6d1d54d9f7230a1"
 }
-variable "sam4" {
-
-}
