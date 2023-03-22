@@ -1,9 +1,14 @@
+provider "google" {
+  project = var.project
+  region = var.region
+}
 resource "google_compute_instance" "vm_instance" {
-  name = "gcp_tutorails"
-  machine_type = "f1.micro"
+  name = var.name
+  machine_type = var.machine_type
+  zone = var.zone
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = var.image
     }
   }
   network_interface {
@@ -12,5 +17,4 @@ resource "google_compute_instance" "vm_instance" {
 
     }
   }
-
 }
