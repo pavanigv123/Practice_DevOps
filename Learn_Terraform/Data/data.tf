@@ -6,6 +6,13 @@ data "aws_ami" "example" {
 
 }
 
+data "aws_instance" "get_man"{
+  instance_id = "i-instance-id"
+}
+
+output "instance" {
+  value = data.aws_instance.get_man.id
+}
 output "ami_id" {
   value = data.aws_ami.example.id
 }
