@@ -7,3 +7,6 @@ resource "aws_instance" "tod" {
 
 }
 
+output "check" {
+  value = var.sam4
+}
