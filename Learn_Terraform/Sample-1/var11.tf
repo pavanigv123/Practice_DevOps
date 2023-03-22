@@ -23,5 +23,5 @@ variable "sample33" {
   }
 }
 output "types" {
-  value = "Variable sample11-${var.sample11},First value in list-${var.sample22[0]},map value-${var.sample33[boolean]}"
+  value = "Variable sample11-${var.sample11},First value in list-${var.sample22[0]},map value-${var.sample33["boolean"]}"
 }
