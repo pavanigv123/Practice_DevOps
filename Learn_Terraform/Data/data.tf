@@ -11,7 +11,7 @@ data "aws_instance" "get_man"{
 }
 
 output "instance" {
-  value = data.aws_instance.get_man.id
+  value = data.aws_instance.get_man.host_id
 }
 output "ami_id" {
   value = data.aws_ami.example.id
