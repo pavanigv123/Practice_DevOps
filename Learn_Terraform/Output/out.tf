@@ -3,7 +3,7 @@ output "sample" {
 }
 
 output "instance_ip_address" {
- value = aws_instance.rao123.ebs_block_device
+ value = aws_instance.rao123.availability_zone
 }
 
 resource "aws_instance" "rao123" {
