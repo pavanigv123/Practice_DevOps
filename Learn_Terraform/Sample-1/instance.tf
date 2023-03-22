@@ -8,5 +8,5 @@ resource "aws_instance" "tod" {
 }
 
 output "check" {
-  value = var.machine_type
+  value = var.zone
 }
