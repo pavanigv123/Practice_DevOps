@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="414ab835-8185-42fa-88e7-b73ad3ca28c6" name="Changes" comment="Learn Terraform">
-      <change beforePath="$PROJECT_DIR$/Learn_Terraform/Sample-1/instance.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Terraform/Sample-1/instance.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learn_Terraform/Sample-1/var11.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Terraform/Sample-1/var11.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679520573179</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Learn Terraform">
+      <created>1679520862244</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679520862244</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
