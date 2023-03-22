@@ -8,5 +8,5 @@ resource "aws_instance" "tod" {
 }
 
 output "check" {
-  value = var.sam4
+  value = var.machine_type
 }
