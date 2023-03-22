@@ -16,3 +16,7 @@ output "instance" {
 output "ami_id" {
   value = data.aws_ami.example.id
 }
+
+output "image" {
+  value = data.aws_ami.example.image_id
+}
